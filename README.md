@@ -14,6 +14,7 @@ Technical Test UT Medan for role Programmer
 ## How To Run
 
 - run composer install
+- run cp .env.example .env
 - run php artisan generate:key
 - configure database in .env file
 - run php artisan migrate:fresh --seed
